@@ -72,7 +72,6 @@ public class JavaApplication90 {
         
         Rectangle[] rectangles = new Rectangle[10];
         rectangles[0] = r1;
-        rectangles[1] = r2;
         //rectangles[2] = c1;
         
         Circle[] circles = new Circle[10];
@@ -83,6 +82,9 @@ public class JavaApplication90 {
         Shape[] shapes = new Shape[10];
         shapes[0] = r1;
         shapes[1] = c1;
+        
+        
+        System.out.println("Some changes here");
         
         
         
