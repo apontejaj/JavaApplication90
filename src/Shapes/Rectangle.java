@@ -16,11 +16,10 @@ public class Rectangle extends Shape{
 
     
     public Rectangle(double width, double height){
-        
         super("Blue", true);
         this.width = width;
         this.height = height;
-        System.out.println("Rectangle Created");
+
     }
 
     public Rectangle(double size) {
