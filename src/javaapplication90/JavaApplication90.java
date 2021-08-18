@@ -46,8 +46,6 @@ public class JavaApplication90 {
         p1.run();
         p2.run();
   
-        
-        System.out.println("Cristian is a star!!!!");
 
     }
     
