@@ -30,24 +30,24 @@ public class JavaApplication90 {
     
     public JavaApplication90(){
         
-//        Person p1 = new Person("Allan");
-//        p1.setName("Alida", "mysecretpassword");
-//        System.out.println(p1.getLanguages());
-//        p1.addNewLanguague("Spanish");
-//        p1.addNewLanguague("English");
-//        
-//        Person p2 = new Person("Mariana");
-//        p2.setName("Gabriel", "incorrectpassword");
-//        System.out.println(p2.getLanguages());
-//        p2.addNewLanguague("German");
-//        p2.addNewLanguague("Italian");
-//        
-//        
-//        p1.run();
-//        p2.run();
-//        
-//        System.out.println(p1.getLanguages());
-//        System.out.println(p2.getLanguages());
+        Person p1 = new Person("Allan");
+        p1.setName("Alida", "mysecretpassword");
+        System.out.println(p1.getLanguages());
+        p1.addNewLanguague("Spanish");
+        p1.addNewLanguague("English");
+        
+        Person p2 = new Person("Mariana");
+        p2.setName("Gabriel", "incorrectpassword");
+        System.out.println(p2.getLanguages());
+        p2.addNewLanguague("German");
+        p2.addNewLanguague("Italian");
+        
+        
+        p1.run();
+        p2.run();
+        
+        System.out.println(p1.getLanguages());
+        System.out.println(p2.getLanguages());
 
         Rectangle r1 = new Rectangle();
         System.out.println(r1);
