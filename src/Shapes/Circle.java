@@ -16,6 +16,7 @@ public class Circle extends Shape{
     public Circle(double radius) {
         super("Green", false);
         this.radius = radius;
+        System.out.println("Circle Created");
     }
 
     public Circle() {
