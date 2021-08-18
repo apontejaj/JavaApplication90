@@ -30,7 +30,7 @@ public class JavaApplication90 {
     
     public JavaApplication90(){
         
-        Person p1 = new Person("Cristian");
+        Person p1 = new Person("Allan");
         p1.setName("Alida", "mysecretpassword");
         System.out.println(p1.getLanguages());
         p1.addNewLanguague("Spanish");
