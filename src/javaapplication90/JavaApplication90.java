@@ -45,50 +45,7 @@ public class JavaApplication90 {
         
         p1.run();
         p2.run();
-        
-        System.out.println(p1.getLanguages());
-        System.out.println(p2.getLanguages());
-
-        Rectangle r1 = new Rectangle();
-        System.out.println(r1);
-        System.out.println(r1.getArea());
-        
-        Rectangle r2 = new Rectangle(20);
-        System.out.println(r2);
-        System.out.println(r2.getArea());
-
-        Rectangle r3 = new Rectangle(20, 40);
-        System.out.println(r3);
-        System.out.println(r3.getArea());
-        
-        Circle c1 = new Circle();
-        System.out.println(c1);
-        System.out.println(c1.getArea());   
-        
-        Circle c2 = new Circle(20);
-        System.out.println(c2);
-        System.out.println(c2.getArea());      
-        
-        
-        Rectangle[] rectangles = new Rectangle[10];
-        rectangles[0] = r1;
-        //rectangles[2] = c1;
-        
-        Circle[] circles = new Circle[10];
-        circles[0] = c1;
-        //circles[1] = r1;
-        
-        
-        Shape[] shapes = new Shape[10];
-        shapes[0] = r1;
-        shapes[1] = c1;
-        
-        
-        System.out.println("Some changes here");
-        
-        
-        
-        
+  
 
     }
     
